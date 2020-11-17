@@ -7,12 +7,12 @@ function App(){
   return ( 
     <React.Fragment>
       <Header />
-      <div class="container">
-        <div class="row">          
-          <div class="col-md-6">
+      <div className="container">
+        <div className="row">          
+          <div className="col-md-6">
             <MonthControl />
           </div>
-          <div class="col-md-6">
+          <div className="col-md-6">
             <MarketControl />
           </div>
         </div>

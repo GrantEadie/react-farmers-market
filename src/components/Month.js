@@ -4,11 +4,10 @@ import PropTypes from "prop-types";
 function Month(props){
   return(
     <React.Fragment>
-      <h3>{props.month}</h3>
+      <h3>{props.month}</h3><hr/>
       {props.selection.map((produce, index) =>
           <p key={index}>{produce}</p>
-        )}
-      
+        )}      
       </React.Fragment>
   );
 }

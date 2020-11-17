@@ -1,5 +1,7 @@
 import React from "react";
 import Market from "./Market";
+import PropTypes from "prop-types";
+
 
 const marketSchedule = [  
   {  
