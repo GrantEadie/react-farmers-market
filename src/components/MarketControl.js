@@ -10,8 +10,7 @@ class MarketControl extends React.Component {
     };
   }
 
-  render(){
-    // let currentVisibleMonth = null;
+  render(){   
     
     return (
       <React.Fragment>

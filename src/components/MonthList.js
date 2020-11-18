@@ -271,16 +271,14 @@ const availableProduce = [
    }
 ];
 
-function MonthList(props) {
-   
-   
+function MonthList(props) {   
    return (
       <React.Fragment>
          <hr />        
          <Month 
             month={availableProduce[props.currentIndex].month}
             selection={availableProduce[props.currentIndex].selection}
-             />         
+            />         
       </React.Fragment>
    );
 }

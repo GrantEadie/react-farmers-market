@@ -3,3 +3,19 @@ body{
   font-weight: 700; 
 }
 
+.arrow {
+  margin:10px;
+}
+
+.comments {
+  margin-top:20px;
+}
+
+li {
+  list-style: none;
+  
+}
+
+ul {
+  padding:0;
+}

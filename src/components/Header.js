@@ -5,7 +5,7 @@ function Header() {
   return (    
     <React.Fragment>
       <br/><br/>
-      <div class="container">
+      <div className="container">
       <h1>avery's fresh organic stuff</h1>
       </div>
     </React.Fragment>

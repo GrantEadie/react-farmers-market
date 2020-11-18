@@ -1,13 +1,29 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+
+
+
+
 function Month(props){
+
+  const ulStyle = {    
+    columns: 2,    
+    padding: 0
+  }
+
   return(
     <React.Fragment>
-      <h3>{props.month}</h3><hr/>
+      
+      <h3>{props.month}</h3>
+      <p><em>available produce</em></p>
+      <hr/>
+      <ul style={ulStyle}>
       {props.selection.map((produce, index) =>
-          <p key={index}>{produce}</p>
-        )}      
+          <li key={index}>{produce}</li>
+          )}      
+      </ul>
+      
       </React.Fragment>
   );
 }
